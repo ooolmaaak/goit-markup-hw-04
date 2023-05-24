@@ -217,9 +217,6 @@ body {
   padding-bottom: 120px;
 }
 
-.studio-item {
-}
-
 .studio-list {
   display: flex;
   gap: 24px;
@@ -272,9 +269,6 @@ body {
   gap: 24px;
 }
 
-.contacts-pic {
-}
-
 .item-text {
   padding-top: 32px;
   padding-bottom: 32px;
@@ -291,11 +285,29 @@ body {
 }
 
 .item-text .item-description {
+  margin-bottom: 8px;
+}
+
+.item-text .item-description {
   text-align: center;
 }
 
 .contacts-item {
   width: calc((100% - 72px) / 4);
+}
+
+.social-media-list {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.social-media-link {
+  display: block;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #4d5ae5;
 }
 
 /* FOOTER */
@@ -331,9 +343,6 @@ body {
 
 .footer-logo-text {
   color: #f4f4fd;
-}
-
-.footer-conteiner {
 }
 
 /* PORTFOLIO */
@@ -397,12 +406,19 @@ body {
   width: calc((100% - 48px) / 3);
 }
 
+.portfolio-item:hover,
+.portfolio-item:focus {
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+}
+
 .portfolio-item:nth-child(3n) {
   margin-right: 0px;
 }
 
 .portfolio-item:nth-last-child(-n + 3) {
   margin-bottom: 0px;
+  object-fit: cover;
 }
 
 .portfolio-text {
@@ -430,6 +446,6 @@ h6 {
 
 img {
   display: block;
-  max-width: 100%;
+  width: 100%;
   height: auto;
 }
