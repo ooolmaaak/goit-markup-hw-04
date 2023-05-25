@@ -182,6 +182,16 @@ body {
 
 /* STUDIO */
 
+.icon-area {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 112px;
+  width: 100%;
+  background-color: #f4f4fd;
+  margin-bottom: 8px;
+}
+
 .title-block {
   font-family: "Roboto", sans-serif;
   font-weight: 700;
@@ -303,11 +313,37 @@ body {
 }
 
 .social-media-link {
-  display: block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 40px;
   height: 40px;
   border-radius: 50%;
   background-color: #4d5ae5;
+}
+
+/* COSTUMERS */
+
+.costumers {
+  background-color: #ffffff;
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.costumers-list {
+  display: flex;
+  gap: 24px;
+}
+
+.costumers-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: calc((100% - 120px) / 6);
+  height: 88px;
+  border-width: 1px;
+  border-radius: 4px;
+  border: 1px solid #8e8f99;
 }
 
 /* FOOTER */
@@ -316,6 +352,12 @@ body {
   background-color: #2e2f42;
   padding-top: 100px;
   padding-bottom: 100px;
+}
+
+.footer-conteiner {
+  display: flex;
+  justify-content: left;
+  gap: 120px;
 }
 
 .footer-description {
@@ -343,6 +385,26 @@ body {
 
 .footer-logo-text {
   color: #f4f4fd;
+}
+
+.footer-social-media {
+  display: block;
+  width: 208px;
+}
+
+.social-media-list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-social-subtitle {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+  margin-bottom: 16px;
 }
 
 /* PORTFOLIO */
