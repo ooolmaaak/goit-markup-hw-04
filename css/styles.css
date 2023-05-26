@@ -312,6 +312,10 @@ body {
   justify-content: space-between;
 }
 
+.contacts-item:hover .social-media-link {
+  background-color: #404bbf;
+}
+
 .social-media-link {
   display: flex;
   justify-content: center;
@@ -320,6 +324,11 @@ body {
   height: 40px;
   border-radius: 50%;
   background-color: #4d5ae5;
+}
+
+.social-media-link:hover,
+.social-media-link:focus {
+  background-color: #31d0aa !important;
 }
 
 /* COSTUMERS */
@@ -344,6 +353,24 @@ body {
   border-width: 1px;
   border-radius: 4px;
   border: 1px solid #8e8f99;
+}
+
+.costumers-link {
+  color: #8e8f99;
+}
+
+svg {
+  fill: currentColor;
+}
+
+.costumers-item:hover,
+.costumers-item:focus {
+  border-color: #0015ff;
+}
+
+.costumers-item:hover .costumers-icon,
+.costumers-item:focus .costumers-icon {
+  fill: #0015ff;
 }
 
 /* FOOTER */
