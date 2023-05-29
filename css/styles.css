@@ -342,11 +342,6 @@ body {
   fill: var(--color-white);
 }
 
-/* .social-media-link:hover,
-.social-media-link:focus {
-  background-color: #31d0aa !important;
-} */
-
 /* customers */
 
 .customers {
@@ -451,6 +446,7 @@ svg {
 .social-media-list {
   display: flex;
   justify-content: space-between;
+  gap: 16px;
 }
 
 .footer-social-subtitle {
@@ -461,6 +457,25 @@ svg {
   letter-spacing: 0.02em;
   color: #ffffff;
   margin-bottom: 16px;
+}
+
+.footer-social-icon {
+  fill: var(--color-white);
+}
+
+.footer-social-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #4d5ae5;
+}
+
+.footer-social-link:hover,
+.footer-social-link:focus {
+  background-color: #31d0aa;
 }
 
 /* PORTFOLIO */
@@ -518,16 +533,20 @@ svg {
   flex-wrap: wrap;
 }
 
+.portfolio-link {
+  display: block;
+}
+
+.portfolio-link:hover,
+.portfolio-link:focus {
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+}
+
 .portfolio-item {
   margin-right: 24px;
   margin-bottom: 48px;
   width: calc((100% - 48px) / 3);
-}
-
-.portfolio-item:hover,
-.portfolio-item:focus {
-  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
-    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .portfolio-item:nth-child(3n) {
