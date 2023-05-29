@@ -377,9 +377,9 @@ body {
   color: #8e8f99;
 }
 
-svg {
+/* svg {
   fill: currentColor;
-}
+} */
 
 .customers-link:hover,
 .customers-link:focus {
