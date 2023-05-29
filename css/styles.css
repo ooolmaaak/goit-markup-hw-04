@@ -308,13 +308,17 @@ body {
   text-align: center;
 }
 
-
 .social-media-list {
   display: flex;
   justify-content: center;
   gap: 24px;
 }
 
+.footer-social-list {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+}
 
 .social-media-link {
   display: flex;
@@ -352,7 +356,6 @@ body {
   width: calc((100% - 120px) / 6);
   height: 88px;
   border-width: 1px;
-
 }
 
 .customers-link {
@@ -370,7 +373,6 @@ body {
 .customers-icon {
   fill: currentColor;
 }
-
 
 .customers-link:hover,
 .customers-link:focus {
@@ -433,8 +435,6 @@ body {
   display: block;
   width: 208px;
 }
-
-
 
 .footer-social-subtitle {
   font-family: "Roboto", sans-serif;
