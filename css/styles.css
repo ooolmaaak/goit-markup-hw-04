@@ -380,11 +380,6 @@ body {
   border-color: #404bbf;
 }
 
-.customers-item:hover .customers-icon,
-.customers-item:focus .customers-icon {
-  fill: #0015ff;
-}
-
 /* FOOTER */
 
 .footer {
@@ -395,8 +390,6 @@ body {
 
 .footer-container {
   display: flex;
-  justify-content: left;
-  gap: 120px;
   align-items: baseline;
 }
 
